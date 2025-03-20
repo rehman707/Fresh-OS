@@ -22,11 +22,11 @@ cd fresh-os-setup
 
 2️⃣ Make the Script Executable
 
-chmod +x install.sh
+chmod +x bash.sh
 
 3️⃣ Run the Script
 
-./install.sh
+./bash.sh
 
 4️⃣ Restart Your System
 
