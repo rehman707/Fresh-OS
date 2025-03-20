@@ -17,7 +17,7 @@ is_installed() {
 # Function to install software via Snap and APT
 install_packages() {
     echo -e "\n\033[1;34m[ Installing Essential Applications ]\033[0m"
-    packages=("qbittorrent" "vlc" "libreoffice" "php" "neovim" "git" "python3" "python3-pip")
+    packages=("qbittorrent" "vlc" "libreoffice" "php" "neovim" "git" "python3" "python3-pip" "build-essential" "cmake" "g++" "curl" "obsidian --classic")
 
     for pkg in "${packages[@]}"; do
         if is_installed "$pkg"; then
